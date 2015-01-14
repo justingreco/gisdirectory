@@ -1,0 +1,43 @@
+[{
+	"name": "iMAPS",
+	"descr": "Raleigh GIS and Wake County GIS developed the Internet Multi-Access Parcel System (iMAPS) in order to provide the general public with easy access to the City and County graphic and attribute databases. Users can query data by owner name, address, place of interest or intersection and retrieve a variety of maps and property information. Easy to understand help pages and videos are available so manipulating iMAPS is easy to do.",
+	"url": "http://maps.raleighnc.gov/iMAPS",
+	"img": "imaps.png"
+},
+{
+	"name": "Park Locator",
+	"descr": "Park Locator is a mapping tool for Raleigh parks that allows patrons to find the closest park to their home, search for parks by amenity, get directions to a park, and explore program offerings at the parks.",
+	"url": "http://maps.raleighnc.gov/parklocator",
+	"img": "parklocator.png"
+},
+{
+	"name": "Adopt-A-Shelter",
+	"descr": "Adopt-A-Shelter is a program that helps businesses, individuals, community organizations and schools make a real difference in their neighborhoods by 'adopting' local bus shelters. An adopter, whether it's an individual or a group, assists by removing trash in and around the shelter area on a monthly basis. You also assist by alerting Transit Staff to special maintenance needs and reporting vandalism or suspicious activity.  View the map for shelters available for adoption or visit the Adopt-A-Shelter Program webpage for more information.",
+	"url": "http://openmaps.raleighnc.gov/adoptashelter",
+	"img": "adoptashelter.png"
+},
+{
+	"name": "Find My Service",
+	"descr": "The MyRaleigh Services tool helps you determine which districts, locations and service days apply to your neighborhood for addresses located inside of the Raleigh city limits.",
+	"url": "http://www.raleighnc.gov/services/content/ITechWebServices/Articles/FindMyService.html",
+	"img": "findmyservice.png"
+},
+{
+	"name": "iMAPS Mobile",
+	"descr": "iMAPS Mobile is the definitive property mapping app for the City of Raleigh and Wake County. With iMAPS Mobile you can research property information by searching by address,owner, PIN or REID numbers or by tapping on the map. This information also includes building photographs, links to deed information, links to real estate information, and civic service information, such as elected officials.",
+	"url": "https://itunes.apple.com/us/app/imaps-mobile/id613478945?mt=8",
+	"img": "imapsmobile.jpeg"
+},
+{
+	"name": "Street Plan Viewer",
+	"descr": "",
+	"url": "http://maps.raleighnc.gov/streetplan",
+	"img": "streettypology.png"
+},
+{
+	"name": "Marathon Parking Restrictions",
+	"descr": "Interactive web mapping application allowing for users to view where and when parking restrictions are in place during marathons and other events.",
+	"url": "http://maps.raleighnc.gov/marathon",
+	"code": "https://github.com/CORaleigh/marathon-no-parking",
+	"img": "marathon.png"
+}]

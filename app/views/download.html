@@ -1,0 +1,38 @@
+<h1 class="page-header">Download</h1>
+<p class="lead">Download data in GIS, AutoCAD, or Microstation formats for an area of interest. Zoom to the desired area, single click each point of the area and then click submit to have the data emailed to you. The largest downloadable area is 100 square miles, for full datasets, please visit the Open Raleigh GIS Data site.</p>
+
+<div class="row">
+	<div class="col-sm-4">
+		<form name="downloadForm" novalidate>
+
+<!-- 		    <div class="form-group">
+	            <label>Datasets</label>
+	            <select class="form-control" ng-model="selectedDataset"><option ng-repeat="dataset in datasets" value="{{dataset}}">{{dataset.substr(dataset.indexOf("\\")+1)}}</option></select>
+        	</div> -->
+		    <div class="form-group">
+	            <label>Datasets</label>
+	            <div ng-dropdown-multiselect="" options="datasets" selected-model="selectedDataset"
+	            	extra-settings="selectSettings"></div>
+        	</div>
+
+
+		    <div class="form-group">
+	            <label>Format</label>
+	            <select class="form-control" ng-model="selectedFormat"><option ng-repeat="format in formats" value="{{format}}">{{format.substr(0, format.indexOf(" - ")+1)}}</option></select>
+        	</div>			
+		    <div class="form-group" ng-class="{'has-error': downloadForm.email.$error.required || downloadForm.email.$error.email}">
+	            <label>Email</label>
+	            <input placeholder="user@domain.com" class="form-control" type="email" name="email" ng-model="email" ng-required="true"></input>
+				<span class="help-block" ng-show="downloadForm.email.$error.email">Valid email format required</span>
+				<span class="help-block" ng-show="downloadForm.email.$error.required">Email required</span>
+        	</div>	
+			<p/>
+			<div class="alert alert-danger" ng-show="!areaSet">Download Area <strong>NOT</strong> Set!</div>
+			<div class="alert alert-danger" ng-show="area > 100">Download Area of {{area.toFixed(1)}} sq. miles is <strong>TOO</strong> Large!</div>			
+			<div class="alert alert-success" ng-show="areaSet && area <= 100">Download Area Set!</div>
+			<p/>
+			<button class="btn btn-primary" ng-class="{'disabled': !areaSet || (downloadForm.email.$error.required || downloadForm.email.$error.email)|| area > 100 || selectedDataset.length < 1}" ng-click="go()">Submit</button>
+		</form>
+	</div>
+	<div class="col-sm-8"><leaflet center="raleigh" ></leaflet></div>
+</div>

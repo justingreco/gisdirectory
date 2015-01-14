@@ -1,0 +1,53 @@
+<h1 class="page-header">Data</h1>
+<p class="lead">We manage the enterprise GIS database which contains hundreds of layers of information including buildings, parks, administrative boundaries, zoning and aerial imagery to name just a few.</p>
+<p>
+<p class="lead">The City of Raleigh is a partner in the open government community and strives to become a worldwide model for an open source city.  As part of the Open Raleigh initiative, the GIS division makes our data available to the public for viewing and downloading.  The following sites provide our data to the public free of charge:
+<div id="data-list" class="container">
+	<div class="row" ng-repeat="site in sites">
+		<h2>{{site.title}}</h2>
+		<div>{{site.description}}</div>
+		<br/><br/>
+		<img src="{{site.img}}"/>
+		<br/><br/>
+		<a class="btn btn-primary" href="{{site.url}}" target="_blank">Visit</a>
+	</div>
+</div>
+<!-- 	<div class="row">
+		<div class="col-sm-6">
+			<div class="panel panel-primary" ng-repeat="datum in data | orderBy:'name'" ng-if="$even">
+				<div class="panel-heading">{{datum.name}}</div>
+				<div class="panel-body">
+				{{datum.descr}}
+					<p>
+						<div class="btn-group" dropdown>
+							<button type="button" class="btn btn-primary dropdown-toggle" ng-disabled="disabled">
+								Download <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li ng-repeat="file in datum.files"><a href="{{file.url}}" target="_blank" ng-model="file">{{file.type}}</a></li>
+							</ul>
+						</div>
+					</p>			
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="panel panel-primary" ng-repeat="datum in data | orderBy:'name'" ng-if="$odd">
+			  <div class="panel-heading">{{datum.name}}</div>
+				<div class="panel-body">
+				{{datum.descr}}
+					<p>
+						<div class="btn-group" dropdown>
+							<button type="button" class="btn btn-primary dropdown-toggle" ng-disabled="disabled">
+								Download <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li ng-repeat="file in datum.files"><a href="{{file.url}}" target="_blank" ng-model="file">{{file.type}}</a></li>
+							</ul>
+						</div>
+					</p>			
+				</div>
+			</div>
+		</div>
+	</div> -->
+</p>

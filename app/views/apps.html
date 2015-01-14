@@ -1,0 +1,24 @@
+<h1 class="page-header">Applications</h1>
+<p class="lead">GIS designs, develops, maintains, and supports a variety of web-based mapping applications to help citizens and City staff easily interact with geographic information and learn more about their community.</p>
+<p>
+	<div class="row">
+		<div class="col-sm-6">
+		<div class="panel panel-primary" ng-repeat="app in apps | orderBy:'name'" ng-if="$even">
+			<div class="panel-heading">{{app.name}}</div>
+			<div class="panel-body">
+			{{app.descr}}
+			<p><a href="{{app.url}}" target="_blank" class="btn btn-primary"><span class="glyphicon glyphicon-link">  View</span></a></p>
+			</div>
+		</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="panel panel-primary" ng-repeat="app in apps | orderBy:'name'" ng-if="$odd">
+			  <div class="panel-heading">{{app.name}}</div>
+			  <div class="panel-body">
+			    {{app.descr}}
+			    <p><a href="{{app.url}}" target="_blank" class="btn btn-primary"><span class="glyphicon glyphicon-link">  View</span></a></p>
+			  </div>
+			</div>
+		</div>
+	</div>
+</p>

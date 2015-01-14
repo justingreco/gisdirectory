@@ -1,0 +1,268 @@
+[{"name": "Annexations",
+"descr": "State laws allow cities to annex property so they can provide essential services to urbanized areas in an orderly and efficient way. Municipalities must provide annexed areas with services such as police and fire protection, water and sewer lines, recreation, solid waste collection and street maintenance.",
+"files":[
+	{"type": "Shapefile",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.zip"
+	},
+	{"type": "File Geodatabase",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.lpk"
+	},
+	{"type": "AutoCAD DXF",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistoryDXF.zip"
+	},
+	{"type": "Google KMZ",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.kmz"
+	}			
+]
+},
+{"name": "Citizens Advisory Councils",
+"descr": "If you live in Raleigh, you automatically are a member of a Citizens Advisory Council. The City of Raleigh has 19 CACs, each representing a different geographic region of the city.",
+"files":[
+	{"type": "Shapefile",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.zip"
+	},
+	{"type": "File Geodatabase",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.lpk"
+	},
+	{"type": "AutoCAD DXF",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistoryDXF.zip"
+	},
+	{"type": "Google KMZ",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.kmz"
+	},
+	{"type": "GeoJSON",
+	 "url": "https://raw.github.com/justingreco/raleigh-geojson/master/parks/greenwayTrails.geojson"
+	},
+	{
+		"type": "TopoJSON",
+		"url": "https://raw.github.com/justingreco/raleigh-geojson/master/boundaries/cac.topojson"
+	}
+],
+"github": "https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/justingreco/raleigh-geojson/master/boundaries/cac.geojson"},
+{"name": "City Council Districts",
+"descr": "The City Council is Raleigh's governing body, consisting of eight members who are elected for two-year terms. Three of the members, including the mayor, are elected at large, while the other members are elected from five districts. The City Council sets City policy, enacts laws and adopts the City budget each year.",
+"files":[
+	{"type": "Shapefile",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.zip"
+	},
+	{"type": "File Geodatabase",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.lpk"
+	},
+	{"type": "AutoCAD DXF",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistoryDXF.zip"
+	},
+	{"type": "Google KMZ",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.kmz"
+	},
+	{"type": "GeoJSON",
+	 "url": "https://raw.github.com/justingreco/raleigh-geojson/master/boundaries/council.geojson"
+	},
+	{
+		"type": "TopoJSON",
+		"url": "https://raw.github.com/justingreco/raleigh-geojson/master/boundaries/council.topojson"
+	}			
+],
+"github": "https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/justingreco/raleigh-geojson/master/boundaries/council.geojson"},
+{"name": "Development Plans",
+"descr": "",
+"files":[
+	{"type": "Shapefile",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.zip"
+	},
+	{"type": "File Geodatabase",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.lpk"
+	},
+	{"type": "AutoCAD DXF",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistoryDXF.zip"
+	},
+	{"type": "Google KMZ",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.kmz"
+	}			
+]
+},
+{"name": "Drainage Basins",
+"descr": "",
+"files":[
+	{"type": "Shapefile",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.zip"
+	},
+	{"type": "File Geodatabase",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.lpk"
+	},
+	{"type": "AutoCAD DXF",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistoryDXF.zip"
+	}			
+]
+},
+{"name": "Future Land Use",
+"descr": "",
+"files":[
+	{"type": "Shapefile",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.zip"
+	},
+	{"type": "File Geodatabase",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.lpk"
+	},
+	{"type": "AutoCAD DXF",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistoryDXF.zip"
+	},
+	{"type": "Google KMZ",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.kmz"
+	}			
+]
+},
+{"name": "Greenway Parking",
+"descr": "",
+"files":[
+	{"type": "Shapefile",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.zip"
+	},
+	{"type": "File Geodatabase",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.lpk"
+	},
+	{"type": "AutoCAD DXF",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistoryDXF.zip"
+	},
+	{"type": "Google KMZ",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.kmz"
+	}			
+]
+},
+{"name": "Greenway Structures",
+"descr": "",
+"files":[
+	{"type": "Shapefile",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.zip"
+	},
+	{"type": "File Geodatabase",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.lpk"
+	},
+	{"type": "AutoCAD DXF",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistoryDXF.zip"
+	},
+	{"type": "Google KMZ",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.kmz"
+	},
+	{"type": "GeoJSON",
+	 "url": "https://raw.github.com/justingreco/raleigh-geojson/master/parks/greenwayStructures.geojson"
+	}				
+],
+"github": "https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/justingreco/raleigh-geojson/master/parks/greenwayStructures.geojson"},
+{"name": "Greenway Trails",
+"descr": "",
+"files":[
+	{"type": "Shapefile",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.zip"
+	},
+	{"type": "File Geodatabase",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.lpk"
+	},
+	{"type": "AutoCAD DXF",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistoryDXF.zip"
+	},
+	{"type": "Google KMZ",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.kmz"
+	},
+	{"type": "GeoJSON",
+	 "url": "https://raw.github.com/justingreco/raleigh-geojson/master/parks/greenwayTrails.geojson"
+	}				
+],
+"github": "https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/justingreco/raleigh-geojson/master/parks/greenwayTrails.geojson",
+"county": true},
+{"name": "Historic Landmarks",
+"descr": "",
+"files":[
+	{"type": "GeoJSON",
+	 "url": "https://raw.github.com/justingreco/raleigh-geojson/master/planning/historicLandmarks.geojson"
+	}				
+],
+"github": "https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/justingreco/raleigh-geojson/master/planning/historicLandmarks.geojson"},
+{"name": "Inspector Areas",
+"descr": "",
+"files":[
+	{"type": "Shapefile",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.zip"
+	},
+	{"type": "File Geodatabase",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.lpk"
+	},
+	{"type": "AutoCAD DXF",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistoryDXF.zip"
+	},
+	{"type": "Google KMZ",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.kmz"
+	}			
+]
+},
+{"name": "Parks",
+"descr": "",
+"files":[
+	{"type": "Shapefile",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.zip"
+	},
+	{"type": "File Geodatabase",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.lpk"
+	},
+	{"type": "AutoCAD DXF",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistoryDXF.zip"
+	},
+	{"type": "Google KMZ",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.kmz"
+	},
+	{"type": "GeoJSON",
+	 "url": "https://raw.github.com/justingreco/raleigh-geojson/master/parks/parks.geojson"
+	}				
+],
+"geojson": "https://raw.github.com/justingreco/raleigh-geojson/master/parks/parks.geojson",
+"github": "https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/justingreco/raleigh-geojson/master/parks/parks.geojson"},
+{"name": "Places of Interest",
+"descr": "",
+"files":[
+	{"type": "Shapefile",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.zip"
+	},
+	{"type": "File Geodatabase",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.lpk"
+	},
+	{"type": "AutoCAD DXF",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistoryDXF.zip"
+	},
+	{"type": "Google KMZ",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.kmz"
+	}			
+]
+},
+{"name": "Planning Districts",
+"descr": "",
+"files":[
+	{"type": "Shapefile",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.zip"
+	},
+	{"type": "File Geodatabase",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.lpk"
+	},
+	{"type": "AutoCAD DXF",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistoryDXF.zip"
+	},
+	{"type": "Google KMZ",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.kmz"
+	}			
+]
+},
+{"name": "Riparian Buffers",
+"descr": "",
+"files":[
+	{"type": "Shapefile",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.zip"
+	},
+	{"type": "File Geodatabase",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.lpk"
+	},
+	{"type": "AutoCAD DXF",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistoryDXF.zip"
+	},
+	{"type": "Google KMZ",
+	 "url": "http://maps.raleighnc.gov/Download/RaleighAnnexationHistory.kmz"
+	}			
+]
+}]
