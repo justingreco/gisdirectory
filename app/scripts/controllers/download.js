@@ -111,30 +111,29 @@ angular.module('gisdirectoryApp')
         drawnItems.clearLayers();
         drawnItems.addLayer(layer);
         $scope.areaSet = true;
-        var area = LGeo.area(e.layer);
-        console.log(area / 2589988.110336);
+        var area = L.GeometryUtil.geodesicArea(e.layer.getLatLngs());
+        console.log(area);
         $scope.area = area / 2589988.110336
       });
 
       map.on('draw:editstop', function (e) {
         
         var area = LGeo.area(drawnItems.getLayers()[0]);
-        console.log(area / 2589988.110336);
+        console.log(area);
         $scope.area = area / 2589988.110336
       });      
 
-function polygonArea(points) {
-  var sum = 0.0;
-  var length = points.length;
-  if (length < 3) {
-    return sum;
-  }
-  points.forEach(function(d1, i1) {
-    var i2 = (i1 + 1) % length;
-    var d2 = points[i2];
-    sum += (d2[1] * d1[0]) - (d1[1] * d2[0]);
-  });
-  return sum / 2;
+
+      function polygonArea(X, Y, numPoints) 
+{ 
+  area = 0;         // Accumulates area in the loop
+  j = numPoints-1;  // The last vertex is the 'previous' one to the first
+
+  for (i=0; i<numPoints; i++)
+    { area = area +  (X[j]+X[i]) * (Y[j]-Y[i]); 
+      j = i;  //j is previous vertex to i
+    }
+  return area/2;
 }
 
       map.on('draw:deleted', function () {
