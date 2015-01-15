@@ -18,7 +18,7 @@ angular.module('gisdirectoryApp')
         ];
     $scope.selectedFormat = $scope.formats[0];
     $scope.selectedDataset = []; //$scope.example1data = [ {id: 1, label: "David"}, {id: 2, label: "Jhon"}, {id: 3, label: "Danny"}];    
-    $scope.selectSettings = {showCheckAll: false, showUncheckAll: false, buttonClasses: 'btn btn-danger'};
+    $scope.selectSettings = {showCheckAll: false, showUncheckAll: false};
     angular.extend($scope, {
         defaults: {
             scrollWheelZoom: false
