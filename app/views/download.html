@@ -9,10 +9,11 @@
 	            <label>Datasets</label>
 	            <select class="form-control" ng-model="selectedDataset"><option ng-repeat="dataset in datasets" value="{{dataset}}">{{dataset.substr(dataset.indexOf("\\")+1)}}</option></select>
         	</div> -->
-		    <div class="form-group">
+		    <div class="form-group" ng-class="{'has-error': selectedDataset.length < 1}">
 	            <label>Datasets</label>
-	            <div ng-dropdown-multiselect="" options="datasets" selected-model="selectedDataset"
+	            <div id="datasets" ng-dropdown-multiselect="" options="datasets" selected-model="selectedDataset"
 	            	extra-settings="selectSettings"></div>
+				<span class="help-block" ng-show="selectedDataset.length < 1">Selection required</span>	            	
         	</div>
 
 

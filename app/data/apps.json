@@ -17,6 +17,18 @@
 	"img": "adoptashelter.png"
 },
 {
+	"name": "Adopt-A-Trail",
+	"descr": "The Raleigh Parks, Recreation and Cultural Resources Department, Adopt-A-Trail Program, provides a volunteer opportunity for interested individuals, businesses and groups to participate in the trail cleanup and support the Capital Area Greenway System. Volunteers can adopt any open segment of our Capital Area Greenway System and must agree to maintain the adopted area once a quarter for one year.",
+	"url": "http://openmaps.raleighnc.gov/adoptatrail",
+	"img": "adoptatrail.png"
+},
+{
+	"name": "UDO Remapping",
+	"descr": "Use the map viewer to research any property of interest. The existing zoning is shown on the left; the proposed zoning is on the right. You can research properties by entering the address or Parcel Identification Number (PIN) or you can pan and zoom the map to simply click to select the targeted parcel. The viewer provides brief descriptions of the old and new districts. The green pins on the map show parcels for which a comment was received and include both the comment received and the staff response. Note that the map is now frozen and no new comments can be pinned to the map.",
+	"url": "http://openmaps.raleighnc.gov/adoptatrail",
+	"img": "remapping.png"
+},
+{
 	"name": "Find My Service",
 	"descr": "The MyRaleigh Services tool helps you determine which districts, locations and service days apply to your neighborhood for addresses located inside of the Raleigh city limits.",
 	"url": "http://www.raleighnc.gov/services/content/ITechWebServices/Articles/FindMyService.html",
@@ -30,9 +42,45 @@
 },
 {
 	"name": "Street Plan Viewer",
-	"descr": "",
+	"descr": "An interactive version of the Street Plan Map where you can pan, zoom, and search by address.",
 	"url": "http://maps.raleighnc.gov/streetplan",
-	"img": "streettypology.png"
+	"img": "streetplan.png"
+},
+{
+	"name": "Sustainable Raleigh Map",
+	"descr": "The Sustainable Raleigh Map was created to highlight the numerous initiatives related to energy efficiency, renewable energy, environmental conservation,a and sustainability throughout the City. Projects include electric vehicles, electric vehicle charging stations, green roofs, rainwater harvesting, and many others. The Sustainable Raleigh Map was developed by Raleigh GIS in partnership with the Office of Sustainability.",
+	"url": "http://maps.raleighnc.gov/sustainable",
+	"img": "sustainable.png"
+},
+{
+	"name": "Interactive BikeRaleigh Map",
+	"descr": "The map highlights existing on-road bicycle facilities, CAT routes, the greenway system, and popular destinations. Also featured, is a system of preferred routes that are intended to help cyclists plan their trips. These routes were selected based on cyclist feedback, existing conditions, destinations, and connectivity. These routes may not be suitable for all experience levels, so please use caution when planning your trip.",
+	"url": "http://bikeraleigh.org/home/index.php/maps",
+	"img": "bikeraleigh.png"
+},
+{
+	"name": "Bond Referendum Map",
+	"descr": "On July 15, 2014 the Raleigh City Council unanimously approved the authorization to hold a parks and recreation bond referendum on November 4, 2014. The bond referendum will improve existing park and recreation facilities, acquire additional parkland and construct new parks and facilities throughout Raleigh. The projects were identified through an 18 month public process that created a new 20 year Parks, Recreation and Cultural Resources System Plan for the City.",
+	"url": "http://maps.raleighnc.gov/yourparkbonds/",
+	"img": "bond.png"
+},
+{
+	"name": "Public Art Map",
+	"descr": "For more than three decades, the Raleigh Arts Commission has helped shape the visual kaleidoscope that comprises our colorful City of Oaks. The Municipal Art Collection holds more than 550 fine art and public art pieces by local, state and national artists. Displayed throughout Raleigh, the artworks include paintings, prints, drawings, textiles, posters and large-scale sculptures as well as artworks used for educational purposes at the Pullen and Sertoma Arts Centers.",
+	"url": "http://maps.raleighnc.gov/publicart/",
+	"img": "art.png"
+},
+{
+	"name": "Interactive Glenwood South Hospitality District Map",
+	"descr": "The Glenwood South Hospitality District map provides contact information for outdoor amplification noise permit holders within the designated district. The red dots indicate the locations of businesses holding Hospitality District Entertainment Permits (HDEP’s). Once the map has opened, the dots to view the business’ contact information or create an online complaint.",
+	"url": "http://maps.raleighnc.gov/hospitality/",
+	"img": "hospitality.png"
+},
+{
+	"name": "Downtown Raleigh Sustainability Self-Guided Walking Tour",
+	"descr": "Raleigh residents and employees curious about the recent efforts made to make Raleigh 'green' are encouraged to take the approximately 2-mile, one-hour, self-guided walking tour of Downtown Raleigh.",
+	"url": "http://maps.raleighnc.gov/sustainabletour/",
+	"img": "sustainabletour.png"
 },
 {
 	"name": "Marathon Parking Restrictions",

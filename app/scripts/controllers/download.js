@@ -1,5 +1,4 @@
 'use strict';
-
 /**
  * @ngdoc function
  * @name gisdirectoryApp.controller:AboutCtrl
@@ -19,7 +18,7 @@ angular.module('gisdirectoryApp')
         ];
     $scope.selectedFormat = $scope.formats[0];
     $scope.selectedDataset = []; //$scope.example1data = [ {id: 1, label: "David"}, {id: 2, label: "Jhon"}, {id: 3, label: "Danny"}];    
-    $scope.selectSettings = {showCheckAll: false, showUncheckAll: false};
+    $scope.selectSettings = {showCheckAll: false, showUncheckAll: false, buttonClasses: 'btn btn-danger'};
     angular.extend($scope, {
         defaults: {
             scrollWheelZoom: false
@@ -38,7 +37,6 @@ angular.module('gisdirectoryApp')
          });
     });
     leafletData.getMap().then(function(map) {
-
         var drawnItems = L.featureGroup().addTo(map),
             drawCtrl = new L.Control.Draw(
                 {
@@ -80,13 +78,10 @@ angular.module('gisdirectoryApp')
                     shape.features[0].geometry.rings[0].push([latlng.lng, latlng.lat]);
                 });
             });
-
             var datasets = [];
             angular.forEach($scope.selectedDataset, function (dataset) {
                 datasets.push(dataset.id);
             });
-
-
             var config = {
                 params: {
                     To: $scope.email,
@@ -102,10 +97,7 @@ angular.module('gisdirectoryApp')
 
                 });
         };
-
-
-
-
+    //draw event handlers
       map.on('draw:created', function (e) {
         var layer = e.layer;
         drawnItems.clearLayers();
@@ -117,24 +109,10 @@ angular.module('gisdirectoryApp')
       });
 
       map.on('draw:editstop', function (e) {
-        
         var area = LGeo.area(drawnItems.getLayers()[0]);
         console.log(area);
         $scope.area = area / 2589988.110336
       });      
-
-
-      function polygonArea(X, Y, numPoints) 
-{ 
-  area = 0;         // Accumulates area in the loop
-  j = numPoints-1;  // The last vertex is the 'previous' one to the first
-
-  for (i=0; i<numPoints; i++)
-    { area = area +  (X[j]+X[i]) * (Y[j]-Y[i]); 
-      j = i;  //j is previous vertex to i
-    }
-  return area/2;
-}
 
       map.on('draw:deleted', function () {
         drawnItems.clearLayers();

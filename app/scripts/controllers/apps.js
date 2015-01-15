@@ -12,4 +12,4 @@ angular.module('gisdirectoryApp')
   	$http.get('data/apps.json').success(function (data) {
   		$scope.apps = data;
   	});
-  });
+});
