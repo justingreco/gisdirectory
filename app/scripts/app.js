@@ -22,10 +22,6 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
@@ -47,13 +43,18 @@ angular
         controller: 'AboutCtrl'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/about'
       });
   })  
-  .controller('IndexCtrl', function ($scope, $rootScope, $location, parallaxHelper) {
+  .controller('IndexCtrl', function ($scope, $rootScope, $document, $location, parallaxHelper) {
     $scope.background = parallaxHelper.createAnimator(-0.3);
     var path = function () {return $location.path();};
     $rootScope.$watch(path, function (newVal, oldVal) {
       $scope.activetab = newVal;
     });
+/*      $('.navbar').affix({
+          offset: {
+              top: $('.jumbotron').height()
+          }   
+      });*/
   });;

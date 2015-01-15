@@ -19,12 +19,16 @@
     <link rel="stylesheet" href="scripts/plugins/leaflet-draw/dist/leaflet.draw.css">
   </head>
   <body ng-app="gisdirectoryApp" ng-controller="IndexCtrl">
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+<!--[if lt IE 9]>
+<div class="browser-warning warning-ie7"><p class="lead"><span class="glyphicon glyphicon-warning-sign"></span> You are using an outdated browser!</p>
+<p>This site must be viewed in a modern browser such as <a href="http://www.google.com/chrome">Google Chrome</a>, <a href="http://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a>, <a href="https://www.apple.com/safari/">Safari</a>, or <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">Internet Explorer</a> 9 or above.  Most of these are supported on computers with Windows XP SP2+ installed.  It is recommended that you upgrade to one of these browsers and then revisit this site.</p>
+<p><a href="http://browsehappy.com" class="btn btn-primary">More Information</a></p>
+<p>For questions please contact Raleigh GIS at <a href="mailto:gis@raleighnc.gov">gis@raleighnc.gov</a>.</p>
+</div>
+<![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="jumbotron"  du-parallax y="background" >
+    <div id="banner" class="jumbotron"  du-parallax y="background" >
       <div class="header row">
         <div class="col-sm-6">
         <h2>GIS Application Gallery</h2>
@@ -37,14 +41,13 @@
         </div>
       </div>
     </div>    
-    <div class="navbar navbar-default" role="navigation">
+    <div id="navbar" class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="http://www.raleighnc.gov" target="_blank">
+<!--           <a class="navbar-brand" href="http://www.raleighnc.gov" target="_blank">
             City of Raleigh GIS
-          </a>
-          <ul class="nav nav-pills pull-right">
-            <li ng-class="{active: activetab == '/'}" ><a ng-href="#">Home</a></li>
+          </a> -->
+          <ul class="nav navbar-nav">
             <li ng-class="{active: activetab == '/about'}"><a ng-href="#/about">About</a></li>
             <li ng-class="{active: activetab == '/data'}"><a ng-href="#/data">Data</a></li>
             <li ng-class="{active: activetab == '/apps'}"><a ng-href="#/apps">Apps</a></li>

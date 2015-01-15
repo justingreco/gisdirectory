@@ -10,4 +10,10 @@
 angular.module('gisdirectoryApp')
   .controller('MainCtrl', function ($scope, parallaxHelper) {
 	$scope.background = parallaxHelper.createAnimator(-0.3);
+
+	$('.navbar').affix({
+	    offset: {
+	        top: $('.jumbotron').height()
+	    }   
+	});
   });
