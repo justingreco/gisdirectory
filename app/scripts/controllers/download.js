@@ -19,6 +19,7 @@ angular.module('gisdirectoryApp')
     $scope.selectedFormat = $scope.formats[0];
     $scope.selectedDataset = []; //$scope.example1data = [ {id: 1, label: "David"}, {id: 2, label: "Jhon"}, {id: 3, label: "Danny"}];    
     $scope.selectSettings = {showCheckAll: false, showUncheckAll: false};
+    $scope.sent = false;
     angular.extend($scope, {
         defaults: {
             scrollWheelZoom: false
@@ -28,7 +29,16 @@ angular.module('gisdirectoryApp')
         	lng: -78.638889,
         	zoom: 11
         }, 
-        areaSet: false
+        areaSet: false,
+        tiles: {
+            url: 'http://{s}.tile.stamen.com/terrain/{z}/{x}/{y}.png',
+            options: {
+                attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+                subdomains: 'abcd',
+                minZoom: 4,
+                maxZoom: 18
+            }
+        }
     });
     $http.get('http://maps.raleighnc.gov/arcgis/rest/services/Geoprocessing/DataDownload/GPServer/Data%20Download%20Task?f=json').success(function (data) {
          $scope.datasets = [];
@@ -94,7 +104,8 @@ angular.module('gisdirectoryApp')
             }
             $http.get('https://maps.raleighnc.gov/arcgis/rest/services/Geoprocessing/DataDownload/GPServer/Data%20Download%20Task/submitJob/', 
                 config).success(function (e) {
-
+                    $scope.selectedDataset = [];
+                    $scope.sent = true;
                 });
         };
     //draw event handlers
@@ -111,7 +122,7 @@ angular.module('gisdirectoryApp')
       map.on('draw:editstop', function (e) {
         var area = LGeo.area(drawnItems.getLayers()[0]);
         console.log(area);
-        $scope.area = area / 2589988.110336
+        $scope.area = area / 2589988.110336;
       });      
 
       map.on('draw:deleted', function () {

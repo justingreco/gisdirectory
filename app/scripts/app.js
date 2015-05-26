@@ -18,9 +18,10 @@ angular
     'ui.bootstrap',
     'leaflet-directive',
     'duParallax',
-    'angularjs-dropdown-multiselect'
+    'angularjs-dropdown-multiselect',
+    'angular-loading-bar'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $locationProvider) {
     $routeProvider
       .when('/about', {
         templateUrl: 'views/about.html',
@@ -45,6 +46,7 @@ angular
       .otherwise({
         redirectTo: '/about'
       });
+      $locationProvider.html5Mode(true);
   })  
   .controller('IndexCtrl', function ($scope, $rootScope, $document, $location, parallaxHelper) {
     $scope.background = parallaxHelper.createAnimator(-0.3);

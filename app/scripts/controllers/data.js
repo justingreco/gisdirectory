@@ -14,12 +14,12 @@ angular.module('gisdirectoryApp')
   	});
   	$scope.sites = [
   		{title: 'Open Raleigh GIS Data',
-  			description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  			description: 'The City of Raleigh is a partner in the open government community and strives to become a worldwide model for an open source city. Through the Open Raleigh initiative, the City seeks to develop opportunities for economic development, commerce, increased investment, and civic engagement. This site is designed to make data easily accessible and downloadable to the public. Use this platform to search for, view, and download data in a variety of formats.',
   			url: 'http://data.ral.opendata.arcgis.com/',
   			img: 'images/openraleigh.png'
   		},
   		{title: 'Wake County GIS Data Download',
-  			description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  			description: 'Wake County provides orthophotography and shapefiles free of charge on this website as a courtesy to the GIS and CAD community.',
   			url: 'http://www.wakegov.com/gis/services/Pages/data.aspx',
   			img: 'images/wakedownload.png'
   		},  		

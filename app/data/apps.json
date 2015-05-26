@@ -25,7 +25,7 @@
 {
 	"name": "UDO Remapping",
 	"descr": "Use the map viewer to research any property of interest. The existing zoning is shown on the left; the proposed zoning is on the right. You can research properties by entering the address or Parcel Identification Number (PIN) or you can pan and zoom the map to simply click to select the targeted parcel. The viewer provides brief descriptions of the old and new districts. The green pins on the map show parcels for which a comment was received and include both the comment received and the staff response. Note that the map is now frozen and no new comments can be pinned to the map.",
-	"url": "http://openmaps.raleighnc.gov/adoptatrail",
+	"url": "http://maps.raleighnc.gov/remapping",
 	"img": "remapping.png"
 },
 {
@@ -88,4 +88,11 @@
 	"url": "http://maps.raleighnc.gov/marathon",
 	"code": "https://github.com/CORaleigh/marathon-no-parking",
 	"img": "marathon.png"
+},
+{
+	"name": "Startups",
+	"descr": "We built this map to help build connections in Raleigh’s growing startup community. Raleigh has transformed over the last few years into a city that fosters innovation, collaboration, and entrepreneurship and this map sets out to showcase that transformation. From Technology and Life Sciences, to Design and Consumer Products, Raleigh is expanding quickly across a wide variety of sectors. Whether you want to explore an industry as a whole, find a specific company, or join the team of one of our growing startups, this map is for you.",
+	"url": "http://openmaps.raleighnc.gov/startup-map",
+	"code": "https://github.com/CORaleigh/represent-map",
+	"img": "startups.png"
 }]
